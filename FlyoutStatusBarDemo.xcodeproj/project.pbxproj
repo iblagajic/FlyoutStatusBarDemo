@@ -12,6 +12,7 @@
 		1AE6E1B01CFDB80F0015F4D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE6E1AE1CFDB80F0015F4D5 /* Main.storyboard */; };
 		1AE6E1B21CFDB80F0015F4D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE6E1B11CFDB80F0015F4D5 /* Assets.xcassets */; };
 		1AE6E1B51CFDB80F0015F4D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE6E1B31CFDB80F0015F4D5 /* LaunchScreen.storyboard */; };
+		1AE6E1BD1CFDB8520015F4D5 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE6E1BC1CFDB8520015F4D5 /* ContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1AE6E1B11CFDB80F0015F4D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AE6E1B41CFDB80F0015F4D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AE6E1B61CFDB80F0015F4D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE6E1BC1CFDB8520015F4D5 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				1AE6E1B11CFDB80F0015F4D5 /* Assets.xcassets */,
 				1AE6E1B31CFDB80F0015F4D5 /* LaunchScreen.storyboard */,
 				1AE6E1B61CFDB80F0015F4D5 /* Info.plist */,
+				1AE6E1BC1CFDB8520015F4D5 /* ContentViewController.swift */,
 			);
 			path = FlyoutStatusBarDemo;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AE6E1AD1CFDB80F0015F4D5 /* ViewController.swift in Sources */,
+				1AE6E1BD1CFDB8520015F4D5 /* ContentViewController.swift in Sources */,
 				1AE6E1AB1CFDB80F0015F4D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +254,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FlyoutStatusBarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fivedollarmilkshake.FlyoutStatusBarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,6 +266,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FlyoutStatusBarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fivedollarmilkshake.FlyoutStatusBarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
